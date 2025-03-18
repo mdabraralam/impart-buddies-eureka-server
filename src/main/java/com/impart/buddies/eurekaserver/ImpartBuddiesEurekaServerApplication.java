@@ -1,3 +1,6 @@
+/**
+* Service for run the Eureka Server
+*/
 package com.impart.buddies.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
