@@ -1,7 +1,7 @@
 # Use a lightweight JDK image to run the JAR
 FROM openjdk:17-jdk-slim
 
-# Set working directory for runtime container
+# Set working directory for the runtime container
 WORKDIR /eureka-server-app
 
 # Copy the built JAR from the Maven build stage
