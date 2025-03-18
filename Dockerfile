@@ -8,7 +8,7 @@ WORKDIR /eureka-server-app
 COPY target/Impart-Buddies-Eureka-Server-0.0.1-SNAPSHOT.jar eureka-server.jar
 
 # Expose the Eureka Server port
-EXPOSE 8761
+EXPOSE 8080
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "eureka-server.jar"]
